@@ -1,0 +1,11 @@
+set(ALL_SOURCES 
+    # APP
+    ${CMAKE_CURRENT_LIST_DIR}/APP/main.cpp
+    )
+set(ALL_INCLUDE_DIRS ${CMAKE_CURRENT_LIST_DIR}
+    # APP
+    ${CMAKE_CURRENT_LIST_DIR}/APP
+)
+
+message("./${ALL_SOURCES}: " ${ALL_SOURCES})
+message("./{ALL_INCLUDE_DIRS}: " ${ALL_INCLUDE_DIRS})
